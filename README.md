@@ -71,7 +71,6 @@ If not found → 404
 6️. GET `/students/branch/:branchName`
 
 Returns all students from a specific branch.
-
 Example:
 
 /students/branch/CSE
@@ -84,42 +83,39 @@ If none found → returns empty array
 
 # Sample API URLs
 1. All students
-   url - https://student-cgpa-api-sushant.onrender.com/students
+   url: https://student-cgpa-api-sushant.onrender.com/students
    
 2. Topper student
-   url - https://student-cgpa-api-sushant.onrender.com/students/topper
+   url: https://student-cgpa-api-sushant.onrender.com/students/topper
    
 3. Average CGPA
-   url - https://student-cgpa-api-sushant.onrender.com/students/average
+   url: https://student-cgpa-api-sushant.onrender.com/students/average
    
 4. Number of students
-   url - https://student-cgpa-api-sushant.onrender.com/students/count
+   url: https://student-cgpa-api-sushant.onrender.com/students/count
    
 5. Student by id
-   url - https://student-cgpa-api-sushant.onrender.com/students/6
+   url: https://student-cgpa-api-sushant.onrender.com/students/6
    
 6. Student by branchName
-   url - https://student-cgpa-api-sushant.onrender.com/students/branch/cse
+   url: https://student-cgpa-api-sushant.onrender.com/students/branch/cse
 
    ---
    
 # How To Run Locally
-1. Clone Repository
-
+1. Clone Repository: 
 `git clone https://github.com/Sushant-Ravi14/servers/tree/main/assignments/cgpa_api`
 
-2️. Install Dependencies
-
+2️. Install Dependencies: 
 `npm install`
 
-3️. Run Server
-
+3️. Run Server: 
 `node index.js`
 
 Server runs on: 
 http://localhost:3000
 
-# 🌍 Live Deployment
+## 🌍 Live Deployment
 
 Render Deployment Link:
 https://student-cgpa-api-sushant.onrender.com/
