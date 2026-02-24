@@ -47,7 +47,7 @@ Status Code: 200
 
 Response: Full student array
 
-2️⃣ GET /students/topper
+2️⃣ GET "/students/topper"
 
 Returns student with highest CGPA.
 
