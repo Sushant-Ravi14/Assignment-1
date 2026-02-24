@@ -18,26 +18,7 @@ No database is used. Data is stored in an in-memory JSON array.
 
 ---
 
-## 🚀 Tech Stack
-
-- Node.js
-- Express.js
-- CORS
-- Render (Deployment)
-
----
-
-## 📂 Project Structure
-
-cgpa_api/
-│
-├── index.js
-├── package.json
-├── package-lock.json
-├── .gitignore
-└── README.md
-
-## 📌 Implemented Routes
+## 📌 List of implemented routes
 
 1️⃣ GET /students
 
@@ -99,7 +80,22 @@ Returns array of students
 
 If none found → returns empty array
 
-## 🛠️ How To Run Locally
+---
+
+# Sample API URLs
+1. All students
+   url - 
+2. Topper student
+
+3. Average CGPA
+
+4. Number of students
+
+5. Student by id
+
+6. Student by branchName
+   url - `https://student-cgpa-api-sushant.onrender.com/students/branch/cse`
+# How To Run Locally
 1️⃣ Clone Repository
 
 git clone https://github.com/your-username/student-cgpa-api.git
