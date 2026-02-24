@@ -95,8 +95,7 @@ If none found → returns empty array
 # How To Run Locally
 
 1. Clone Repository: 
-`git clone https://github.com/Sushant-Ravi14/servers/tree/main/assignments/cgpa_api`
-
+```js  { git clone https://github.com/Sushant-Ravi14/servers/tree/main/assignments/cgpa_api }  ```
 2️. Install Dependencies: 
 `npm install`
 
