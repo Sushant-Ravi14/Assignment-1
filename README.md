@@ -22,47 +22,38 @@ No database is used. Data is stored in an in-memory JSON array.
 
 1️. GET `/students`
 
-Returns all students.
-
-Status Code: 200
-
-Response: Full student array
+-Returns all students.
+-Status Code: 200
+-Response: Full student array
 
 2️. GET `/students/topper`
 
-Returns student with highest CGPA.
-
-Status Code: 200
-
-Returns single student object
-
-If no students → 404
+-Returns student with highest CGPA.
+-Status Code: 200
+-Returns single student object
+-If no students → 404
 
 3️. GET `/students/average`
 
-Returns average CGPA of all students.
-
-Response Format:
-
-{
-  "averageCGPA": 8.12
-}
+-Returns average CGPA of all students.
+-Response Format:
+  {
+    "averageCGPA": 8.12
+  }
 
 4️. GET `/students/count`
 
 Returns total number of students.
 
-{
-  "totalStudents": 10
-}
+  {
+    "totalStudents": 10
+  }
 
 5️. GET `/students/:id`
 
-Returns student by ID.
-
+-Returns student by ID.
 Example:
-
-/students/3
+`/students/3`
 
 If found → 200
 
@@ -70,10 +61,9 @@ If not found → 404
 
 6️. GET `/students/branch/:branchName`
 
-Returns all students from a specific branch.
+-Returns all students from a specific branch.
 Example:
-
-/students/branch/CSE
+`/students/branch/CSE`
 
 Returns array of students
 
