@@ -4,7 +4,7 @@ A RESTful API built using **Express.js** to manage student academic performance 
 
 ---
 
-## 📌 Objective
+## Objective
 
 This project demonstrates how to:
 
@@ -18,9 +18,9 @@ No database is used. Data is stored in an in-memory JSON array.
 
 ---
 
-## 📌 List of implemented routes
+## List of implemented routes
 
-1️⃣ GET /students
+1️. GET `/students`
 
 Returns all students.
 
@@ -28,7 +28,7 @@ Status Code: 200
 
 Response: Full student array
 
-2️⃣ GET `/students/topper`
+2️. GET `/students/topper`
 
 Returns student with highest CGPA.
 
@@ -38,7 +38,7 @@ Returns single student object
 
 If no students → 404
 
-3️⃣ GET /students/average
+3️. GET `/students/average`
 
 Returns average CGPA of all students.
 
@@ -48,7 +48,7 @@ Response Format:
   "averageCGPA": 8.12
 }
 
-4️⃣ GET /students/count
+4️. GET `/students/count`
 
 Returns total number of students.
 
@@ -56,7 +56,7 @@ Returns total number of students.
   "totalStudents": 10
 }
 
-5️⃣ GET /students/:id
+5️. GET `/students/:id`
 
 Returns student by ID.
 
@@ -68,7 +68,7 @@ If found → 200
 
 If not found → 404
 
-6️⃣ GET /students/branch/:branchName
+6️. GET `/students/branch/:branchName`
 
 Returns all students from a specific branch.
 
@@ -84,36 +84,42 @@ If none found → returns empty array
 
 # Sample API URLs
 1. All students
-   url - 
+   url - https://student-cgpa-api-sushant.onrender.com/students
+   
 2. Topper student
-
+   url - https://student-cgpa-api-sushant.onrender.com/students/topper
+   
 3. Average CGPA
-
+   url - https://student-cgpa-api-sushant.onrender.com/students/average
+   
 4. Number of students
-
+   url - https://student-cgpa-api-sushant.onrender.com/students/count
+   
 5. Student by id
-
+   url - https://student-cgpa-api-sushant.onrender.com/students/6
+   
 6. Student by branchName
-   url - `https://student-cgpa-api-sushant.onrender.com/students/branch/cse`
+   url - https://student-cgpa-api-sushant.onrender.com/students/branch/cse
+
+   ---
+   
 # How To Run Locally
-1️⃣ Clone Repository
+1. Clone Repository
 
-git clone https://github.com/your-username/student-cgpa-api.git
+`git clone https://github.com/Sushant-Ravi14/servers/tree/main/assignments/cgpa_api`
 
-2️⃣ Install Dependencies
+2️. Install Dependencies
 
-npm install
+`npm install`
 
-3️⃣ Run Server
+3️. Run Server
 
-node index.js
+`node index.js`
 
-Server runs on:
-
+Server runs on: 
 http://localhost:3000
 
 # 🌍 Live Deployment
 
 Render Deployment Link:
-
-https://your-render-link.onrender.com
+https://student-cgpa-api-sushant.onrender.com/
