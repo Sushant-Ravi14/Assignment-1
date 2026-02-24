@@ -37,7 +37,8 @@ cgpa_api/
 ├── .gitignore
 └── README.md
 
-📌 Implemented Routes
+## 📌 Implemented Routes
+
 1️⃣ GET /students
 
 Returns all students.
@@ -65,6 +66,7 @@ Response Format:
 {
   "averageCGPA": 8.12
 }
+
 4️⃣ GET /students/count
 
 Returns total number of students.
@@ -72,6 +74,7 @@ Returns total number of students.
 {
   "totalStudents": 10
 }
+
 5️⃣ GET /students/:id
 
 Returns student by ID.
@@ -96,17 +99,23 @@ Returns array of students
 
 If none found → returns empty array
 
-🛠️ How To Run Locally
+## 🛠️ How To Run Locally
 1️⃣ Clone Repository
+
 git clone https://github.com/your-username/student-cgpa-api.git
+
 2️⃣ Install Dependencies
+
 npm install
+
 3️⃣ Run Server
+
 node index.js
 
 Server runs on:
 
 http://localhost:3000
+
 🌍 Live Deployment
 
 Render Deployment Link:
